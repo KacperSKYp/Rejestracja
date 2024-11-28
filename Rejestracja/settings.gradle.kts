@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Rejestracja"
 include(":app")
- 

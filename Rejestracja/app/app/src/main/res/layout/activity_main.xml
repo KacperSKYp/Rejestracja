@@ -2,54 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:padding="0dp">
-
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#008080"
-        android:text="Rejestruj konto"
-        android:textColor="@color/white"
-        android:textSize="30dp" />
-
+<TextView
+    android:layout_width="match_parent"
+    android:text="Rejestruj konto"
+    android:textColor="@color/white"
+    android:textSize="30dp"
+    android:layout_height="50dp"
+    android:id = "@+id/title"
+    android:background="#008080"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Podaj e-mail:" />
-
+        android:text = "Podaj e-mail:"/>
     <EditText
         android:id="@+id/form1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:inputType="textEmailAddress" />
-
+        android:inputType="textEmailAddress"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Podaj hasło:" />
-
+        android:text = "Podaj hasło:"/>
     <EditText
         android:id="@+id/form2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:inputType="textPassword" />
-
+        android:inputType="textPassword"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Powtórz hasło:" />
-
+        android:text = "Powtórz hasło:"/>
     <EditText
         android:id="@+id/form3"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:inputType="textPassword" />
+        android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/send"
@@ -57,13 +50,12 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="ZATWIERDŹ" />
-
     <TextView
-        android:id="@+id/text_2"
+        android:text="Autor: Michał Lolo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Autor: Kacper Nowacki" />
+        android:id="@+id/text_2"
+        android:gravity="center"/>
 
 </LinearLayout>
 
